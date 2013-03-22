@@ -16,6 +16,9 @@
 		F0806FD816FBF37800DCE89D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F0806FD716FBF37800DCE89D /* Default.png */; };
 		F0806FDA16FBF37800DCE89D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0806FD916FBF37800DCE89D /* Default@2x.png */; };
 		F0806FDC16FBF37800DCE89D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0806FDB16FBF37800DCE89D /* Default-568h@2x.png */; };
+		F0806FE316FBF3AB00DCE89D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0806FE216FBF3AB00DCE89D /* Main.storyboard */; };
+		F0806FE616FBF3F000DCE89D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0806FE516FBF3F000DCE89D /* ViewController.m */; };
+		F0DD16FE16FBF701001A6147 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DD16FD16FBF701001A6147 /* image1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,10 @@
 		F0806FD716FBF37800DCE89D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F0806FD916FBF37800DCE89D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F0806FDB16FBF37800DCE89D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F0806FE216FBF3AB00DCE89D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F0806FE416FBF3F000DCE89D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0806FE516FBF3F000DCE89D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0DD16FD16FBF701001A6147 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +85,12 @@
 		F0806FCB16FBF37800DCE89D /* Sample-EasyGaussianBlur */ = {
 			isa = PBXGroup;
 			children = (
+				F0806FE216FBF3AB00DCE89D /* Main.storyboard */,
 				F0806FD416FBF37800DCE89D /* AppDelegate.h */,
 				F0806FD516FBF37800DCE89D /* AppDelegate.m */,
+				F0806FE416FBF3F000DCE89D /* ViewController.h */,
+				F0806FE516FBF3F000DCE89D /* ViewController.m */,
+				F0DD16FD16FBF701001A6147 /* image1.jpg */,
 				F0806FCC16FBF37800DCE89D /* Supporting Files */,
 			);
 			path = "Sample-EasyGaussianBlur";
@@ -154,6 +165,8 @@
 				F0806FD816FBF37800DCE89D /* Default.png in Resources */,
 				F0806FDA16FBF37800DCE89D /* Default@2x.png in Resources */,
 				F0806FDC16FBF37800DCE89D /* Default-568h@2x.png in Resources */,
+				F0806FE316FBF3AB00DCE89D /* Main.storyboard in Resources */,
+				F0DD16FE16FBF701001A6147 /* image1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +179,7 @@
 			files = (
 				F0806FD216FBF37800DCE89D /* main.m in Sources */,
 				F0806FD616FBF37800DCE89D /* AppDelegate.m in Sources */,
+				F0806FE616FBF3F000DCE89D /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +253,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sample-EasyGaussianBlur/Sample-EasyGaussianBlur-Prefix.pch";
 				INFOPLIST_FILE = "Sample-EasyGaussianBlur/Sample-EasyGaussianBlur-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +265,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sample-EasyGaussianBlur/Sample-EasyGaussianBlur-Prefix.pch";
 				INFOPLIST_FILE = "Sample-EasyGaussianBlur/Sample-EasyGaussianBlur-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +290,7 @@
 				F0806FE116FBF37800DCE89D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
