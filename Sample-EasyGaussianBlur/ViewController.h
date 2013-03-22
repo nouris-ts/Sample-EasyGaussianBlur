@@ -9,5 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    __weak IBOutlet UIImageView *_imageView;
+    __weak IBOutlet UILabel *_scaleLabel;
+    __weak IBOutlet UILabel *_biasLabel;
+    __weak IBOutlet UISlider *_scaleSlider;
+    __weak IBOutlet UISlider *_biasSlider;
+}
+
+- (IBAction)toggleBlur:(UISwitch *)sender;
+- (IBAction)changeScale:(UISlider *)sender;
+- (IBAction)changeBias:(UISlider *)sender;
+- (IBAction)changeMagFilter:(UISegmentedControl *)sender;
 
 @end

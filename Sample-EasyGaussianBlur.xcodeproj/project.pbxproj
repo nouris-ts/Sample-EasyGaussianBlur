@@ -19,6 +19,7 @@
 		F0806FE316FBF3AB00DCE89D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0806FE216FBF3AB00DCE89D /* Main.storyboard */; };
 		F0806FE616FBF3F000DCE89D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0806FE516FBF3F000DCE89D /* ViewController.m */; };
 		F0DD16FE16FBF701001A6147 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DD16FD16FBF701001A6147 /* image1.jpg */; };
+		F0DD170416FBFB73001A6147 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DD170316FBFB73001A6147 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F0806FE416FBF3F000DCE89D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F0806FE516FBF3F000DCE89D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F0DD16FD16FBF701001A6147 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		F0DD170316FBFB73001A6147 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DD170416FBFB73001A6147 /* QuartzCore.framework in Frameworks */,
 				F0806FC616FBF37800DCE89D /* UIKit.framework in Frameworks */,
 				F0806FC816FBF37800DCE89D /* Foundation.framework in Frameworks */,
 				F0806FCA16FBF37800DCE89D /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +78,7 @@
 		F0806FC416FBF37700DCE89D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0DD170316FBFB73001A6147 /* QuartzCore.framework */,
 				F0806FC516FBF37700DCE89D /* UIKit.framework */,
 				F0806FC716FBF37800DCE89D /* Foundation.framework */,
 				F0806FC916FBF37800DCE89D /* CoreGraphics.framework */,
