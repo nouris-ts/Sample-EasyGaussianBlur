@@ -28,7 +28,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="First"/>
-                                    <segment title="Second"/>
+                                    <segment title="Mosaic"/>
                                 </segments>
                                 <connections>
                                     <action selector="changeMagFilter:" destination="O0d-0H-KTU" eventType="valueChanged" id="SuQ-rr-BDS"/>

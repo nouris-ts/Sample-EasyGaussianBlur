@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController : UIViewController
 {
@@ -15,6 +16,9 @@
     __weak IBOutlet UILabel *_biasLabel;
     __weak IBOutlet UISlider *_scaleSlider;
     __weak IBOutlet UISlider *_biasSlider;
+    
+    CABasicAnimation *_animGaussianOn;
+    CABasicAnimation *_animGaussianOff;
 }
 
 - (IBAction)toggleBlur:(UISwitch *)sender;
