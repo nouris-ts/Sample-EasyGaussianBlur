@@ -27,8 +27,8 @@
                                 <rect key="frame" x="20" y="411" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
+                                    <segment title="Gaussian"/>
+                                    <segment title="Mosaic"/>
                                 </segments>
                                 <connections>
                                     <action selector="changeMagFilter:" destination="O0d-0H-KTU" eventType="valueChanged" id="SuQ-rr-BDS"/>
