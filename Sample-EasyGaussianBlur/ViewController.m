@@ -97,7 +97,6 @@
         _imageView.layer.shouldRasterize = YES;
         _imageView.layer.rasterizationScale = _scaleSlider.value;
     }
-    [_imageView.layer removeAllAnimations];
 }
 
 @end
